@@ -1,28 +1,25 @@
+html {
+   background-color: rgb(236, 57, 57);
+}
+
 body{
     width: 100%;
     margin: 0%;
     padding: 0%;
+    font-size: 300%;
+    font-weight: 400%;
+    font-family: share tech mono;
+    background-color: rgb(236, 57, 57);
+    
 }
 
-header{
-    display: flex;
-    background-color: rgb(236, 52, 52);
-    margin: 0%;
-    justify-content: center;
-    color: white;
-    margin-bottom: 20px;
-    height: 130px;
-}
 
 #pokeball{
-    width: 210px;
-    height: 130px;
-}
-
- h1{
-    font-family: Helvetica, sans-serif;
-    margin-right: 10px;
- }
+    width: 270px;
+    top: 0;
+    left: 0;
+    };
+  
 
  #pokemonSprite{
     display: block;
@@ -33,23 +30,29 @@ header{
  }
 
  #pokemonName{
+    font-family: share tech mono;
     display: flex;
     text-align: center;
     border: 2px solid black;
     border-radius: 5px;
+    background-color: dark;
  }
 
  #fetchButton{
+    font-family: share tech mono;
     color: white;
-    background-color: rgb(236, 52, 52);
+    background-color: rgb(236, 57, 57);
     width: 150px;
     height: 40px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
+    background-color: rgb(80, 75, 75);
+    
 
  }
 
  #nameDiv{
     display: flex;
-    justify-content: center;
+    justify-content: left;
  }
+

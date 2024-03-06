@@ -24,3 +24,4 @@ async function fetchData(){
             console.error(error);
     }
 }
+
