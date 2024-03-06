@@ -7,5 +7,4 @@ HTML, CSS, JavaScript, Tailwind CSS
 ### API's Used
 https://pokeapi.co/
 https://docs.pokemontcg.io/
-## 
-Deployed Application
+## Deployed Application
