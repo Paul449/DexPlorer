@@ -1,4 +1,5 @@
 # DexPlorer
+<<<<<<< HEAD
 Pokemon users info
 
 # Description
@@ -48,3 +49,14 @@ Web Application Link:()
 # License
 
 MIT license: (https://github.com/Paul449/DexPlorer/blob/main/LICENSE)
+=======
+DexPlorer is an interactive, user friendly website and thorough Pokemon Encyclopedia.
+In this application you'll find stats, typing, summaries and much more!
+Increase your Pokemon knowledge and have fun with Dexplorer!
+## Technology Used
+HTML, CSS, JavaScript, Tailwind CSS
+### API's Used
+https://pokeapi.co/
+https://docs.pokemontcg.io/
+## Deployed Application
+>>>>>>> 80794293dc8ba726897c377fb21c3e38f8ff9948
