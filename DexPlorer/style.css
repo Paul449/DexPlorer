@@ -6,13 +6,68 @@ body{
     width: 100%;
     margin: 0%;
     padding: 0%;
-    font-size: 300%;
+    font-size: 400%;
     font-weight: 400%;
     font-family: share tech mono;
-    background-color: rgb(236, 57, 57);
-    
+    background-color: rgb(236, 57, 57);  
+    text-shadow: 2px 2px 2px black;
 }
 
+#darkModeToggle {
+   color: grey;
+   border: 2px solid black;
+   border-radius: 10px;
+   padding: 12px;
+}
+.dark-mode {
+   background-color: #333;
+   color: #fff;
+}
+.toggle-container {
+   position: fixed;
+   top: 20px;
+   right: 20px;
+}
+.toggle-btn {
+   cursor: pointer;
+   padding: 10px;
+   background-color: #ddd;
+   border: none;
+   outline: none;
+   font-size: 16px;
+   border: 2px solid black;
+   border-radius: 10px;
+}
+
+main{
+
+   display: flex;
+   position: relative;
+   top: 160px;
+   left: 30px;
+}
+
+.container{
+
+   display: flex;
+   flex-direction: row;
+   position: relative;
+   right: 4%;
+}
+
+.split-left{
+
+   position: relative;
+   right: 10px;
+}
+
+.split-right{
+
+   background-color: brown;
+   position: relative;
+   left: 5%;
+   padding-right: 90%;
+}
 
 #pokeball{
     width: 270px;
@@ -34,8 +89,9 @@ body{
     display: flex;
     text-align: center;
     border: 2px solid black;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: dark;
+    margin-bottom: 20%;
  }
 
  #fetchButton{
@@ -47,12 +103,19 @@ body{
     border: none;
     border-radius: 10px;
     background-color: rgb(80, 75, 75);
-    
-
+    position: relative;
+    left: 20%;
+    border: 2px solid black;
+    border-radius: 10px;
  }
 
  #nameDiv{
     display: flex;
-    justify-content: left;
+    flex-direction: column;
  }
 
+ .footer{
+
+   position: relative;
+   
+ }
