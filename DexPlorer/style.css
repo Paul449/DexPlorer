@@ -6,12 +6,19 @@ body{
     width: 100%;
     margin: 0%;
     padding: 0%;
-    font-size: 400%;
+    font-size: 700%;
     font-weight: 400%;
     font-family: share tech mono;
-    background-color: rgb(236, 57, 57);  
+    /* background-color: rgb(236, 57, 57);   */
     text-shadow: 2px 2px 2px black;
-}
+    color: #fff; /* Set the text color */
+    text-shadow: 
+        -2px -2px 0 #000, 
+         2px -2px 0 #000, 
+        -2px  2px 0 #000, 
+         2px  2px 0 #000;
+    }
+    
 
 #darkModeToggle {
    color: grey;
@@ -62,17 +69,22 @@ main{
 }
 
 .split-right{
-
-   background-color: brown;
    position: relative;
    left: 5%;
-   padding-right: 90%;
+   
+
+}
+
+#encyclopedia{
+   font-size: 25%;
+   padding-left: 2%;
 }
 
 #pokeball{
-    width: 270px;
+    width: 350px;
     top: 0;
     left: 0;
+    padding-left: 4%;
     };
   
 
@@ -92,6 +104,11 @@ main{
     border-radius: 10px;
     background-color: dark;
     margin-bottom: 20%;
+    height: 40px;
+    width: 200px;
+    position: relative;
+    left: 15.5%;
+
  }
 
  #fetchButton{
@@ -107,8 +124,15 @@ main{
     left: 20%;
     border: 2px solid black;
     border-radius: 10px;
+    margin-top: -90px;
  }
+ #charizard{
+   height: 1000px;
+   width: 1000px;
+   padding-bottom: 50%;
+   
 
+}
  #nameDiv{
     display: flex;
     flex-direction: column;
