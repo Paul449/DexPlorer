@@ -1,40 +1,42 @@
 html {
-   background-color: rgb(236, 57, 57);
+    background-color: rgb(236, 57, 57);
+ }
+ 
+ body{
+   width: 100%;
+   margin: 0%;
+   padding: 0%;
+   font-size: 700%;
+   font-weight: 400%;
+   /* background-color: rgb(236, 57, 57);   */
+   font-family: share tech mono;
+   text-shadow: 2px 2px 2px black;
+   color: #fff; /* Set the text color */
+   text-shadow: 
+   -2px -2px 0 #000, 
+   2px -2px 0 #000, 
+   -2px  2px 0 #000, 
+   2px  2px 0 #000;
 }
-
-body{
-    width: 100%;
-    margin: 0%;
-    padding: 0%;
-    font-size: 700%;
-    font-weight: 400%;
-    font-family: share tech mono;
-    /* background-color: rgb(236, 57, 57);   */
-    text-shadow: 2px 2px 2px black;
-    color: #fff; /* Set the text color */
-    text-shadow: 
-        -2px -2px 0 #000, 
-         2px -2px 0 #000, 
-        -2px  2px 0 #000, 
-         2px  2px 0 #000;
-    }
-    
-
+ 
 #darkModeToggle {
    color: grey;
    border: 2px solid black;
    border-radius: 10px;
    padding: 12px;
 }
+
 .dark-mode {
    background-color: #333;
    color: #fff;
 }
+
 .toggle-container {
    position: fixed;
    top: 20px;
    right: 20px;
 }
+
 .toggle-btn {
    cursor: pointer;
    padding: 10px;
@@ -45,7 +47,7 @@ body{
    border: 2px solid black;
    border-radius: 10px;
 }
-
+ 
 main{
 
    display: flex;
@@ -67,79 +69,213 @@ main{
    position: relative;
    right: 10px;
 }
-
+ 
 .split-right{
    position: relative;
    left: 5%;
-   
-
 }
-
+ 
 #encyclopedia{
    font-size: 25%;
    padding-left: 2%;
 }
-
+ 
 #pokeball{
-    width: 350px;
-    top: 0;
-    left: 0;
-    padding-left: 4%;
-    };
-  
+   width: 350px;
+   top: 0;
+   left: 0;
+   padding-left: 4%;
+};
 
- #pokemonSprite{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50% 200px;
-    height: 200px;
- }
+#pokemonSprite{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50% 300px;
+   height: 300px;
+}
+ 
+#pokemonName{
+   font-family: share tech mono;
+   display: flex;
+   text-align: center;
+   border: 2px solid black;
+   border-radius: 10px;
+   background-color: dark;
+   margin-bottom: 20%;
+   height: 40px;
+   width: 200px;
+   position: relative;
+   left: 15.5%;
 
- #pokemonName{
-    font-family: share tech mono;
-    display: flex;
-    text-align: center;
-    border: 2px solid black;
-    border-radius: 10px;
-    background-color: dark;
-    margin-bottom: 20%;
-    height: 40px;
-    width: 200px;
-    position: relative;
-    left: 15.5%;
+}
 
- }
-
- #fetchButton{
-    font-family: share tech mono;
-    color: white;
-    background-color: rgb(236, 57, 57);
-    width: 150px;
-    height: 40px;
-    border: none;
-    border-radius: 10px;
-    background-color: rgb(80, 75, 75);
-    position: relative;
-    left: 20%;
-    border: 2px solid black;
-    border-radius: 10px;
-    margin-top: -90px;
- }
- #charizard{
+#fetchButton{
+   font-family: share tech mono;
+   color: white;
+   background-color: rgb(236, 57, 57);
+   width: 150px;
+   height: 40px;
+   border: none;
+   border-radius: 10px;
+   background-color: rgb(80, 75, 75);
+   position: relative;
+   left: 20%;
+   border: 2px solid black;
+   border-radius: 10px;
+   margin-top: -90px;
+}
+#charizard{
    height: 1000px;
    width: 1000px;
    padding-bottom: 50%;
    
 
 }
- #nameDiv{
-    display: flex;
-    flex-direction: column;
+#nameDiv {
+   display: flex;
+   flex-direction: column;
+   position: relative;
+}
+
+#suggestions {
+   position: absolute;
+   width: 200px; /* Set the width as needed */
+   max-height: 200px; /* Set the maximum height for the container */
+   overflow-y: auto; /* Enable vertical scrolling if needed */
+   top: 40px; /* Adjust this value to match the height of your input box */
+   left: 0;
+   background-color: #ffffff5b; /* Add a background color */
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a box shadow for styling */
+   z-index: 1; /* Ensure suggestions appear above other elements */
+   left: 15.5%;
+   border-radius: 5px;
+}
+
+
+.suggestion-item {
+   padding: 8px;
+   cursor: pointer;
+   border-bottom: 1px solid #ccc;
+}
+
+.suggestion-item:last-child {
+   border-bottom: none;
+}
+
+.suggestion-item:hover {
+   background-color: #f2f2f2;
+}
+
+.suggestion-button {
+   display: block;
+   background-color: rgb(211, 211, 211);
+   width: 100%; /* Make the suggestions take the full width of the container */
+   height: 40px;
+   padding: 8px;
+   cursor: pointer;
+   border: 1px solid #ccc;
+
+}
+
+.suggestion-button:hover {
+   background-color: rgb(225, 224, 224);
+}
+ 
+.footer{
+   position: relative;   
+}
+
+
+#card{
+   margin-top: 5px;
+   margin-left: auto;
+   margin-right: auto;
+   height: 650px;
+   width: 500px;
+   border: solid black;
+   border-radius: 5%;
+   display: none;
+   justify-content: center;
+   background-color: lightgray;
+   box-shadow: 0 4px 8px rgb(0, 0, 0);
+   left: 300%;
  }
 
- .footer{
+ #card:hover{
+   background-color: rgb(234, 233, 233);
+   cursor: pointer;
+}
 
-   position: relative;
-   
+ #pokemonSprite{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50% 300px;
+   height: 300px;
+}
+
+#name{
+   font-size: 60px;
+   text-align: center;
+   margin-bottom: 20px;
+ }
+
+#dexNum{
+   font-size: 50px;
+   text-align: center;
+ }
+
+#type{
+   font-size: 50px;
+   text-align: center;
+   margin-bottom: 20px;
+ }
+
+#modal {
+   display: none; /* Hidden by default */
+   position: fixed; /* Stay in place */
+   z-index: 1; /* Sit on top */
+   left: 15%;
+   top: 7.5%;
+   width: 100%; /* Full width */
+   height: 100%; /* Full height */
+   overflow: auto; /* Enable scroll if needed */
+   background-color: rgb(255, 255, 255); /* Fallback color */
+   width: 1000px;
+   height: 700px;
+   border: black 2px;
+   border-radius: 10px;
+   justify-content: center;
+   text-align: center;
+   text-shadow: none;
+   color: black;
+ }
+
+ .close {
+   color: #000000;
+   float: right;
+   font-size: 80px;
+   bottom: 3%;
+   font-weight: bold;
+
+ }
+ 
+ .close:hover,
+ .close:focus {
+   color: black;
+   cursor: pointer;
+ }
+
+ #summary{
+   font-size: 50px;
+   color: black;
+ }
+
+ #hp{
+   color: black;
+ }
+
+ #baseStats{
+   font-size: 20px;
  }
