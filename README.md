@@ -1,10 +1,13 @@
 # DexPlorer
-<<<<<<< HEAD
-Pokemon users info
+DexPlorer is an interactive, user friendly website and thorough Pokemon Encyclopedia.
+In this application you'll find stats, typing, summaries and much more!
+Increase your Pokemon knowledge and have fun with Dexplorer!
 
 # Description
 The purpose of this web application is to help people who are passionate to get infromation about their favorite
-characters and other ones
+characters and other ones. Dexplorer allow us to look for species by displaying main qualities fro each one, incluidng the name, species, and skills;
+also the description assigned to each character is displayed on a pokemon card after typing it on the input box and click the fetch button. This is
+also helpful for pokemon fans to keep updated with new species each time.
 
 # Installation
 
@@ -20,7 +23,7 @@ N/A
 
 4.- Tailwind CSS: framework used to add premade elements such as dark/light button
 
-5.- Google Fonts: adding 
+5.- Google Fonts: adding font-family and font-size from this website to the web application
 
 # API's Used
 
@@ -29,14 +32,19 @@ N/A
  Pokémon TCG API Documentation:(https://docs.pokemontcg.io/)
 
 # Usage
-Thi
+
+This encyclopedia is only used in a web browser and it is not a software that could be downloaded in our local machines
+but it can be used by everyone and look for different pokemon and see the abilities and other qualitites from each pokemon character.
+
 # Deployed Application
+
+here is the screenshot showing the pokedex functionality:
 
 # Links
 
-Repository Link:(https://github.com/Paul449/DexPlorer)
+Repository link: (https://github.com/Paul449/DexPlorer)
 
-Web Application Link:()
+Website link: ()
 
 # Credits
 
@@ -48,15 +56,4 @@ Web Application Link:()
 
 # License
 
-MIT license: (https://github.com/Paul449/DexPlorer/blob/main/LICENSE)
-=======
-DexPlorer is an interactive, user friendly website and thorough Pokemon Encyclopedia.
-In this application you'll find stats, typing, summaries and much more!
-Increase your Pokemon knowledge and have fun with Dexplorer!
-## Technology Used
-HTML, CSS, JavaScript, Tailwind CSS,Bulma CSS
-### API's Used
-https://pokeapi.co/
-https://docs.pokemontcg.io/
-## Deployed Application
->>>>>>> 80794293dc8ba726897c377fb21c3e38f8ff9948
+
