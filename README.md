@@ -56,4 +56,4 @@ Website link: ()
 
 # License
 
-(https://github.com/Paul449/DexPlorer/blob/main/LICENSE)
+

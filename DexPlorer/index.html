@@ -16,18 +16,24 @@
     <div class="split-left">
         <div>
         <h1>DexPlorer</h1>
+        <p id="encyclopedia">The Pokemon Encyclopedia </p>
         </div>
-        <img id="pokeball" src="finalpokeball.png" alt="Pokeball">
+        <img id="pokeball" src="finalpokeball.png" alt="Pokeball" />
         <div id="nameDiv">
-        <input type="text" id="pokemonName" placeholder="Enter Pokemon Name">
-        <button onclick="fetchData()" id="fetchButton">Fetch Pokemon</button><br>
+            <input type="text" id="pokemonName" placeholder="Enter Pokemon Name">
+            <button onclick="fetchData()" id="fetchButton">Fetch Pokemon</button><br>
+            <div id="suggestions"></div>
         </div>
-        <img src="" alt="pokemon Sprite" id="pokemonSprite" style="display: none">
-    
+        <div id="card">
+            <h3 id="name"></h3>
+            <h3 id="dexNum"></h3>
+            <img src="" alt="pokemon Sprite" id="pokemonSprite" >
+            <h3 id="type"></h3>
+        </div>
         <button id="darkModeToggle" class="toggle-btn">🌙</button>
     </div>
     <div class="split-right">
-        <img src="https://img2.joyreactor.com/pics/post/Charizard-Pokemon-fandoms-1268183.gif" alt="flying charizard">
+        <img id="charizard" src="Charizard-Pokemon-fandoms-1268183.gif" alt="flying charizard">
     </div>
 </div>
 <script src="script.js"></script>
