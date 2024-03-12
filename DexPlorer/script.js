@@ -108,7 +108,7 @@ async function fetchData(){
 
         const data = await response.json();
         
-
+        const UpperName = pokemonName.charAt(0).toUpperCase() + pokemonName.slice(1);
 
         const speciesResponse = await fetch(data.species.url);
         if(!speciesResponse.ok){
@@ -131,7 +131,7 @@ async function fetchData(){
         const findSpeed = data.stats.find(stat => stat.stat.name === 'speed').base_stat;
 
         dexNum.innerHTML = findDexNum;
-        PokeName.innerHTML = pokemonName;
+        PokeName.innerHTML = UpperName;
         card.style.display = 'block'
         imgElement.style.display = 'block';
         typeElement.style.display = 'block';
@@ -165,7 +165,7 @@ async function fetchData(){
             }
         }
     
-        modalName.innerHTML = pokemonName;
+        modalName.innerHTML = UpperName;
         modalSprite.src = pokeSprite;
         summary.innerHTML = getSummary;
         hp.innerHTML = `HP: ${findHp}`
