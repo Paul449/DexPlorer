@@ -21,7 +21,7 @@ N/A
 
 3.- JavaScript: Making our website to be interactive when users access it.
 
-4.- Tailwind CSS: framework used to add premade elements such as dark/light button
+4.- Bulma CSS: framework used to add premade elements such as dark/light button
 
 5.- Google Fonts: adding font-family and font-size from this website to the web application
 
