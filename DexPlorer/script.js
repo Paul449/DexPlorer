@@ -236,6 +236,7 @@ async function getCard() {
       if (foundCard) {
         // Check if images property exists before accessing imageUrl
         if (foundCard.images) {
+          cardImg.style.display = 'block'; 
           const imageUrl = foundCard.images.small;
           cardImg.src = imageUrl;
           cardMessage.style.display = 'none'; // Hide the message if card is found
