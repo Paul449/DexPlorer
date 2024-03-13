@@ -109,7 +109,7 @@ async function fetchData(){
         const data = await response.json();
         
         const UpperName = pokemonName.charAt(0).toUpperCase() + pokemonName.slice(1);
-
+console.log("species url", data.species.url)
         const speciesResponse = await fetch(data.species.url);
         if(!speciesResponse.ok){
             throw new Error('Could not fetch resource')
