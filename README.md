@@ -44,7 +44,7 @@ here is the screenshot showing the pokedex functionality:
 
 Repository link: (https://github.com/Paul449/DexPlorer)
 
-Website link: ()
+Deployed App link: (https://paul449.github.io/DexPlorer/)
 
 # Credits
 
