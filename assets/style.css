@@ -148,7 +148,7 @@ main{
    background-color: #ffffff5b; /* Add a background color */
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a box shadow for styling */
    z-index: 1; /* Ensure suggestions appear above other elements */
-   left: 10%;
+   left: 9%;
    border-radius: 5px;
    
 }
